@@ -34,7 +34,7 @@ html, body {
 .header {
   background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg) no-repeat center center;
   background-size: cover;
-  height: 600px;
+  height: 750px;
   text-align: center;
   opacity: .9;
 }
@@ -55,29 +55,37 @@ html, body {
 
 .header .container {
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 
 .header h1 {
   color: #fff;
   line-height: 100px;
   font-size: 80px;
-  margin-top: 0;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .header p {
   color: #fff;
   font-weight: 500;
   letter-spacing: 8px;
-  margin-bottom: 60px;
+  margin-bottom: 35px;
   margin-top: 0;
   text-transform: uppercase;
 }
 
+.header form{
+    margin-top: 10px;
+}
+
+.header .btn{
+    margin-top: 45px;
+}
+
 #home .container {
     border: 3px solid white;
-    height: 400px;
+    height: 500px;
     padding: 40px;
 }
 
@@ -87,12 +95,13 @@ html, body {
   width: 100%;
   text-align: center;
   padding-top: 10px;
+  color: white;
 
 }
 .form{
-    padding-top: 20px;
-    float: left;
-    padding-left: 15px;
+    padding-top: 25px;
+    float: right;
+    padding-right: 15px;
 }
 
 .form a{
@@ -104,4 +113,14 @@ html, body {
 .form label{
     margin-left: 20px;
     color: white;
+}
+
+
+.signup label{
+    color: white;
+    margin-bottom: 40;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 125px;
+    text-align: left;
 }

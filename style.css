@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat";
 }
 .nav {
   background: #000;
@@ -47,6 +48,23 @@ html, body {
   transition: background .5s;
 }
 
+.form{
+    padding-top: 25px;
+    float: right;
+    padding-right: 15px;
+}
+
+.form a{
+    background-color: #117bff;
+    margin-left: 20px;
+
+}
+
+.form label{
+    margin-left: 20px;
+    color: #fff;
+}
+
 .container {
   margin: 0 auto;
   max-width: 940px;
@@ -83,8 +101,17 @@ html, body {
     margin-top: 45px;
 }
 
+.signup label{
+    color: #fff;
+    margin-bottom: 40;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 125px;
+    text-align: left;
+}
+
 #home .container {
-    border: 3px solid white;
+    border: 3px solid #fff;
     height: 500px;
     padding: 40px;
 }
@@ -95,32 +122,66 @@ html, body {
   width: 100%;
   text-align: center;
   padding-top: 10px;
-  color: white;
-
-}
-.form{
-    padding-top: 25px;
-    float: right;
-    padding-right: 15px;
+  color: #fff;
 }
 
-.form a{
-    background-color: #117bff;
-    margin-left: 20px;
-
+/* CSS for index.html */
+.indexheader h1{
+    border-left: 2px solid #00f28f;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
-.form label{
-    margin-left: 20px;
-    color: white;
+.main{
+    margin-top:80px;
+}
+
+.indexinput{
+    background: #f0f0f0;
+    border: none;
+    border-left: 2px solid #fff;
+    font-size: 36px;
+    padding: 20px;
+    width: 100%;
+
+    transition: background 2s, border-left 2s;
 }
 
 
-.signup label{
-    color: white;
-    margin-bottom: 40;
-    margin-right: 0px;
-    margin-top: 10px;
-    width: 125px;
-    text-align: left;
+.indexinput:focus{
+    background: #fff;
+    border-left: 2px solid #000;
+    box-shadow: none;
+    outline: none;
+}
+
+.indexbtn{
+    background-color: transparent;
+    border: none;
+    color: #117bff;
+    cursor: pointer;
+    font-size: 36px;
+    padding: 20px 24px;
+
+    transition: background 2s, color 2s;
+}
+
+.indexbtn:hover{
+    background: #117bff;
+    color: #fff;
+}
+
+.links{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.links li{
+    padding-left: 20px;
+    border-left: 2px solid #000;
+    font-size: 36px;
+    margin: 0 0 36px;
 }

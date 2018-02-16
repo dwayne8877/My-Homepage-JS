@@ -16,12 +16,12 @@
       <div class="nav">
         <div class="">
 
-              <form class="form">
+              <form class="form" id="nav-login" method="post" action="index0.html" >
                   <label for="email"> Email:</label>
-                    <input></input>
+                    <input name="nav-email" id="login-email" type="email" required></input>
                   <label for="password>"> Password:</label>
-                    <input></input>
-                  <a class="btn" href="index0.html">Login</a>
+                    <input name="nav-password" id="login-password" type="password" required></input>
+                  <button class="btn"  id="login-button" type="submit" >Login</button>
               </form>
 
         </div>
@@ -32,21 +32,22 @@
         <h1>myHomepage</h1>
             <p>ALL OF YOUR FAVORITE WEBSITES IN ONE PLACE </p>
 
-            <form class="signup" action= "/signup" method="post">
+            <form class="signup" id="signup"  method="post" action="index0.html" >
                 <div>
                     <label for="email">Email:</label>
-                        <input name="email" type="email"/>
+                        <input name="email" type="email" required/>
                 </div>
                 <div>
                     <label for="password">Password:</label>
-                        <input name="password" type="password"/>
+                        <input name="password" type="password" required/>
                 </div>
                 <div>
                     <label for="verify">Verify Password:</label>
-                        <input name="verify" type="password"/>
+                        <input name="verify" type="password" required/>
                 </div>
+                <button class="btn" id="signup-button" type="submit">SIGN UP</button>
             </form>
-            <a class="btn" href="index0.html">SIGN UP</a>
+
       </div>
     </div>
 
@@ -56,8 +57,11 @@
                 DarrellTheDeveloper</a>, 2018 &copy.
             </h4>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="script.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.js"></script>
+    <script src="test.js"></script>
   </body>
 
 
